@@ -51,7 +51,7 @@ function gg(cid){
     var pi=Math.PI;
     var R=100,beta=0,db=-pi/30;
     var img=new Image();
-    img.src="/img/pi.png";
+    img.src="img/pi.png";
     var w,h,fs=[];
     img.onload=function(){
         w=img.width/5,h=img.height/5;
